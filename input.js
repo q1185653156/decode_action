@@ -1,569 +1,67 @@
-//Sat May 31 2025 15:24:30 GMT+0000 (Coordinated Universal Time)
-//Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
-//Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-//Sat May 31 2025 15:22:28 GMT+0000 (Coordinated Universal Time)
-//Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
-//Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
 const $ = new Env("福田e家");
 const crypto = require("crypto");
-const notify = $.isNode() ? require("../sendNotify") : "";
-(() => {
-  var j = {
-    gvHlt: function (ad, ae) {
-      return ad === ae;
-    },
-    ABNqX: "zkoOC",
-    KPcXQ: function (ad, ae) {
-      return ad in ae;
-    },
-    dboSg: function (ad, ae) {
-      return ad(ae);
-    },
-    YZZvH: function (ad, ae) {
-      return ad !== ae;
-    },
-    NOrYR: "rnaNh",
-    nSHtC: function (ad, ae) {
-      return ad == ae;
-    },
-    YGOQK: "function",
-    geqsz: "symbol",
-    eTEkg: function (ad) {
-      return ad();
-    },
-    OmnEA: function (ad) {
-      return ad();
-    },
-    XeVQt: "fzeWT",
-    LWlyc: function (ad, ae) {
-      return ad(ae);
-    },
-    gjYcq: function (ad, ae, af, ag, ah) {
-      return ad(ae, af, ag, ah);
-    },
-    vgdKo: "HNylV",
-    InCRa: function (ad, ae) {
-      return ad !== ae;
-    },
-    YpubX: "wflyb",
-    kDYSt: "CHhpu",
-    tmitC: "string",
-    KFvlw: function (ad, ae, af) {
-      return ad(ae, af);
-    },
-    vvorZ: function (ad, ae) {
-      return ad === ae;
-    },
-    yZRsu: "Object",
-    SkVWf: "Map",
-    fgjfn: function (ad, ae) {
-      return ad === ae;
-    },
-    cLbYG: "Arguments",
-    QgGlf: "JIxXY",
-    bHuCq: function (ad, ae) {
-      return ad >= ae;
-    },
-    ecSPQ: "kEHnY",
-    yqlSX: "dIyYn",
-    mmTpq: "MjAxNjEyMDE=",
-    ygkqK: "base64",
-    RCMEP: "utf8",
-    VNXWT: function (ad, ae) {
-      return ad !== ae;
-    },
-    kkuzf: "zdZtw",
-    gbaqQ: "xUJtA",
-    LdSKx: "fwgvg",
-    LrZVT: function (ad, ae) {
-      return ad == ae;
-    },
-    NMgkW: "kRVVg",
-    iiFvS: function (ad, ae, af, ag, ah) {
-      return ad(ae, af, ag, ah);
-    },
-    HovAn: "next",
-    bSMTu: function (ad, ae) {
-      return ad in ae;
-    },
-    bMkuh: function (ad, ae) {
-      return ad >= ae;
-    },
-    XWXjg: function (ad, ae) {
-      return ad === ae;
-    },
-    WWIOa: "SGMyM",
-    WBNyH: "aWtvT",
-    zLCPT: function (ad, ae) {
-      return ad === ae;
-    },
-    CgUFV: "iUNTF",
-    GeVNJ: "uBHuT",
-    bmzlz: function (ad, ae) {
-      return ad != ae;
-    },
-    akREh: "@@iterator",
-    gRcxA: "btNeb",
-    rqYfb: "zRgJv",
-    WKbmB: function (ad, ae) {
-      return ad && ae;
-    },
-    JMLMR: function (ad, ae) {
-      return ad === ae;
-    },
-    aPPrC: "HJbPJ",
-    GfFFu: "Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.",
-    wOCLK: function (ad, ae) {
-      return ad === ae;
-    },
-    zsNgZ: "xCKiW",
-    Wvlia: function (ad, ae) {
-      return ad > ae;
-    },
-    GjwwU: "throw",
-    XUbgp: function (ad, ae) {
-      return ad !== ae;
-    },
-    dRlec: "DprPF",
-    NeGyx: function (ad, ae, af, ag, ah, ai, aj, ak) {
-      return ad(ae, af, ag, ah, ai, aj, ak);
-    },
-    aqcre: "mWpeQ",
-    FkUTm: "xtPCs",
-    REUWm: "uUNds",
-    iDLvu: function (ad, ae) {
-      return ad instanceof ae;
-    },
-    HPxvf: function (ad, ae, af, ag) {
-      return ad(ae, af, ag);
-    },
-    dFdyp: "_invoke",
-    ajuoz: function (ad, ae, af, ag) {
-      return ad(ae, af, ag);
-    },
-    qaVYI: function (ad, ae) {
-      return ad == ae;
-    },
-    Xedjm: function (ad, ae) {
-      return ad(ae);
-    },
-    FSIXk: "normal",
-    AqHYd: function (ad, ae) {
-      return ad === ae;
-    },
-    ciWjA: "jXhnI",
-    yaxPa: "blstL",
-    aXylj: function (ad, ae) {
-      return ad !== ae;
-    },
-    szecr: "iZsxn",
-    XvYPj: "CjHHw",
-    BMMAT: "mMslh",
-    JWSRK: "end",
-    LJLMY: function (ad, ae) {
-      return ad === ae;
-    },
-    sXcKE: "GeypK",
-    bwSYP: "vpfdm",
-    HvEyy: "hxZkk",
-    dcezx: function (ad, ae) {
-      return ad === ae;
-    },
-    UjDRC: "VkAPF",
-    cbCyY: "return",
-    pfBwj: "catchLoc",
-    aEOnL: function (ad, ae) {
-      return ad < ae;
-    },
-    kZEAW: function (ad, ae) {
-      return ad(ae);
-    },
-    eoctL: "try statement without catch or finally",
-    MPeHa: "EXwyS",
-    VNkKF: function (ad, ae) {
-      return ad + ae;
-    },
-    SZbrQ: " is not iterable",
-    PMytn: function (ad, ae) {
-      return ad >= ae;
-    },
-    mJrtN: "IRsfZ",
-    swsgC: function (ad, ae) {
-      return ad - ae;
-    },
-    dLYiQ: "XKabv",
-    OaDKy: "mMUek",
-    yasys: "__await",
-    TdwBA: "ddUXH",
-    JjIwk: "cNMWW",
-    zqheD: "GZZaX",
-    xMISn: function (ad, ae) {
-      return ad == ae;
-    },
-    NdRiY: function (ad, ae) {
-      return ad !== ae;
-    },
-    gMAbH: "agkBE",
-    DModC: "onwJO",
-    TBOrd: "QVJpn",
-    JpYSy: function (ad, ae) {
-      return ad < ae;
-    },
-    YqiVZ: function (ad, ae, af) {
-      return ad(ae, af);
-    },
-    wqVXi: "BfuYO",
-    isLvZ: "ezIyW",
-    zyujY: function (ad, ae) {
-      return ad === ae;
-    },
-    FdKhK: function (ad, ae) {
-      return ad !== ae;
-    },
-    tgeiZ: function (ad, ae) {
-      return ad !== ae;
-    },
-    JhUap: function (ad, ae) {
-      return ad + ae;
-    },
-    HmnvY: "The iterator does not provide a '",
-    DAzcl: "' method",
-    LCwIu: "EtOIm",
-    WXNEz: "lDGZg",
-    fBFPv: "root",
-    qMaoI: function (ad, ae) {
-      return ad == ae;
-    },
-    YdSCw: function (ad, ae) {
-      return ad(ae);
-    },
-    oCClA: function (ad, ae, af) {
-      return ad(ae, af);
-    },
-    hqfeb: function (ad, ae) {
-      return ad === ae;
-    },
-    gONzz: "sigaS",
-    wLEDq: "Zm9udG9uZS10cmFuc0BseDEwMCQjMzY1",
-    kJxyE: "des-ede3-cbc",
-    QGIxQ: function (ad, ae) {
-      return ad === ae;
-    },
-    ilEun: function (ad, ae) {
-      return ad !== ae;
-    },
-    ghfyE: "Obtqs",
-    SpWwr: "XgaNt",
-    hIoHQ: function (ad, ae) {
-      return ad == ae;
-    },
-    SXDRE: function (ad, ae) {
-      return ad(ae);
-    },
-    LrHdJ: "xTNvY",
-    Idaqw: "njoBf",
-    Fidwh: function (ad, ae) {
-      return ad(ae);
-    },
-    gAvQq: function (ad, ae) {
-      return ad === ae;
-    },
-    czCwo: "kUhQj",
-    GVxpH: "swFvk",
-    kjscZ: "GeneratorFunction",
-    OeuwW: "gYLam",
-    DuQwa: function (ad, ae) {
-      return ad === ae;
-    },
-    jAHaj: "mtgSK",
-    CUbzw: "VgWiF",
-    xIXTW: "uKisj",
-    pPCQO: "hsCUV",
-    QpXAg: "LtvQe",
-    HsXrP: "ukAco",
-    VyOIs: "[object Generator]",
-    wyzCv: "PzfCH",
-    PVuHa: function (ad, ae) {
-      return ad in ae;
-    },
-    AqKPp: "jlGKJ",
-    ibfDL: function (ad, ae) {
-      return ad(ae);
-    },
-    rrSxX: function (ad, ae) {
-      return ad !== ae;
-    },
-    VOCzB: "jAdJN",
-    PNSmX: function (ad, ae) {
-      return ad === ae;
-    },
-    vdzHM: "break",
-    jJUWP: "continue",
-    mfQoP: "CAGlQ",
-    ZHIfw: "VYpXl",
-    EtBAN: function (ad, ae) {
-      return ad === ae;
-    },
-    reUVC: function (ad, ae) {
-      return ad === ae;
-    },
-    LnNGl: "snfht",
-    BDgIk: "illegal catch attempt",
-    GpsVG: "Vneyn",
-    SOLmn: function (ad, ae, af, ag) {
-      return ad(ae, af, ag);
-    },
-    qrBtk: function (ad, ae) {
-      return ad === ae;
-    },
-    UlMex: function (ad, ae) {
-      return ad === ae;
-    },
-    PBwAr: function (ad, ae) {
-      return ad === ae;
-    },
-    NDYoL: function (ad, ae, af, ag, ah) {
-      return ad(ae, af, ag, ah);
-    },
-    VerJV: function (ad, ae) {
-      return ad == ae;
-    },
-    huRrV: "mGfGC",
-    OPxHE: "zlqiq",
-    nQmBf: "zEhPQ",
-    XOIZC: "UjKNu",
-    Ihrtp: "pTUbG",
-    NRFNK: "IUXxG",
-    VOolz: "leKNE",
-    itHLp: function (ad, ae, af, ag) {
-      return ad(ae, af, ag);
-    },
-    LVDeF: "NLhAU",
-    mIlzg: "DZaAv",
-    mcruo: function (ad) {
-      return ad();
-    },
-    uDCSN: "TSMfo",
-    qQVpd: function (ad, ae, af, ag) {
-      return ad(ae, af, ag);
-    },
-    oBiLK: function (ad, ae) {
-      return ad !== ae;
-    },
-    ROwgH: "PILDT",
-    HLeUu: "ZfZPX",
-    xXgui: function (ad, ae) {
-      return ad(ae);
-    },
-    AaXnm: function (ad, ae) {
-      return ad !== ae;
-    },
-    BvnfA: "AEhJK",
-    iajYC: function (ad, ae) {
-      return ad === ae;
-    },
-    VmdVx: "iterator result is not an object",
-    Xfhyh: function (ad, ae) {
-      return ad === ae;
-    },
-    VFuVc: function (ad, ae) {
-      return ad === ae;
-    },
-    jdkVG: "fJbyb",
-    kHbUH: function (ad, ae) {
-      return ad - ae;
-    },
-    XZcKg: "RJkVt",
-    suqwI: function (ad, ae) {
-      return ad(ae);
-    },
-    NSBKN: function (ad, ae) {
-      return ad <= ae;
-    },
-    zqAhD: "ZMaBl",
-    WrhcS: "pGZTv",
-    WKkGp: "RIwzd",
-    qIByO: function (ad, ae) {
-      return ad < ae;
-    },
-    qPIWL: function (ad, ae) {
-      return ad(ae);
-    },
-    Bydth: function (ad, ae) {
-      return ad >= ae;
-    },
-    ktWLJ: function (ad, ae) {
-      return ad !== ae;
-    },
-    RaeNg: "gosVe",
-    RBNHb: function (ad, ae) {
-      return ad < ae;
-    },
-    ZiQmO: function (ad, ae) {
-      return ad <= ae;
-    },
-    UqDKF: "Eqntp",
-    LdfOq: "qjkgD",
-    iHSkR: "uqYnz",
-    yQQTL: "@@toStringTag",
-    ZzMWd: "hQGuE",
-    DJdGq: "NtcQn",
-    TPMLk: "GOcVw",
-    AsAIP: "suspendedStart",
-    otHmV: "executing",
-    fZChr: function (ad, ae, af, ag) {
-      return ad(ae, af, ag);
-    },
-    EzXmM: function (ad, ae) {
-      return ad(ae);
-    },
-    rkDDl: function (ad, ae) {
-      return ad !== ae;
-    },
-    DxgjY: "constructor",
-    dVbNH: "Generator",
-    TeacP: "toString",
-    vzEmL: function (ad, ae) {
-      return ad < ae;
-    },
-    LtYnO: "wxzUK",
-    doZMc: "Kmnum",
-    exRpN: "WPtiN",
-    IpnzW: function (ad, ae) {
-      return ad !== ae;
-    },
-    dYLHR: function (ad, ae) {
-      return ad >= ae;
-    },
-    NBIDs: "vCFDH",
-    izbNn: "RDYSQ",
-    JQmgt: function (ad, ae) {
-      return ad == ae;
-    },
-    ShDHa: "作者：@xzxxn777\n频道：https://t.me/xzxxn777\n群组：https://t.me/xzxxn7777\n自用机场推荐：https://xn--diqv0fut7b.com\n",
-    lHDkH: function (ad, ae) {
-      return ad === ae;
-    },
-    Jhnxi: "先去boxjs填写账号密码",
-    KcHFu: "xvYlm",
-    njbPA: "获取皮卡生活safeKey",
-    zqDhZ: "kjFTz",
-    CcoeT: "皮卡生活登录",
-    zmcVW: "/ehomes-new/pkHome/api/user/getLoginMember2nd",
-    tINTQ: "开始签到",
-    RLvRw: function (ad, ae, af) {
-      return ad(ae, af);
-    },
-    EMdSh: "/ehomes-new/pkHome/api/bonus/signActivity2nd",
-    IcnjP: "签到成功，获得",
-    ZKXMx: "————————————",
-    pMdHl: function (ad, ae, af) {
-      return ad(ae, af);
-    },
-    hqCuo: "/est/getVersion.action",
-    GtoQq: "7.5.1",
-    tfWya: "cMOmM",
-    PGnvD: "dDgHC",
-    MlbSj: "svHgvcBi/9f/MyYFLY3aFQ==",
-    GvtaU: "342",
-    ZJQoE: "QHkoM",
-    dWhmd: "登陆成功",
-    kcvgT: "/ehomes-new/homeManager/api/share/corsToActicity",
-    ekNPf: "open",
-    DFZGm: "打开app：",
-    OhCOr: function (ad, ae) {
-      return ad != ae;
-    },
-    dSNbq: "ASNhR",
-    Zabow: function (ad, ae) {
-      return ad == ae;
-    },
-    awclh: function (ad, ae) {
-      return ad === ae;
-    },
-    IvimS: function (ad, ae) {
-      return ad !== ae;
-    },
-    hdynj: "NIOiX",
-    YWPsh: "任务：",
-    xFTet: "ovlPf",
-    KMnMV: "pUNbx",
-    IDbvK: "任务已完成",
-    LwMhp: "/ehomes-new/homeManager/api/bonus/addIntegralForShare",
-    RJkSi: "APP",
-    gYkub: "130",
-    YrPKl: "/ehomes-new/ehomesCommunity/api/post/recommendPostList",
-    xLNaX: function (ad, ae) {
-      return ad * ae;
-    },
-    cEffF: "/ehomes-new/ehomesCommunity/api/post/follow2nd",
-    BGYxA: "关注成功",
-    JHtlq: function (ad, ae) {
-      return ad - ae;
-    },
-    KsGcr: function (ad, ae) {
-      return ad != ae;
-    },
-    fLcxg: "125",
-    ZSPAr: "如果觉得没有朋友，就去找喜欢的人表白，对方会提出和你做朋友的。",
-    cQpOK: "文本：",
-    Tjfmw: "/ehomes-new/ehomesCommunity/api/post/addJson2nd",
-    uwDpt: "发帖成功",
-    rHljK: "拥有积分: ",
-    pOHdG: " 拥有积分: ",
-    cUXrx: function (ad, ae) {
-      return ad(ae);
-    },
-    IQjpK: "https://czyl.foton.com.cn",
-    EoPwC: "application/json;charset=utf-8",
-    rSMIM: "okhttp/3.14.9",
-    Iwpss: function (ad) {
-      return ad();
-    },
-    eOxEu: function (ad, ae) {
-      return ad(ae);
-    },
-    aHpBO: function (ad) {
-      return ad();
-    },
-    HEyPA: "gzip",
-    bqJPj: function (ad, ae) {
-      return ad(ae);
-    },
-    PgBSr: function (ad) {
-      return ad();
-    },
-    zecUf: function (ad) {
-      return ad();
-    },
-    lSTvY: function (ad, ae) {
-      return ad(ae);
-    },
-    vLrdG: "Keep-Alive",
-    nbvNy: "7918d2d1a92a02cbc577adb8d570601e72d3b640",
-    kqXrO: "web",
-    aFyXR: function (ad) {
-      return ad();
-    },
-    vIxex: "https://cy.91yu.cn/yz/juhe.php?msg=爱情语录",
-    aWGfR: function (ad, ae) {
-      return ad(ae);
-    },
-    OLFbf: function (ad) {
-      return ad();
-    },
-    Mlqpg: function (ad) {
-      return ad();
-    },
-    sGXyj: "https://fastly.jsdelivr.net/gh/xzxxn777/Surge@main/Utils/Notice.json",
-    ULzfh: function (ad) {
-      return ad();
-    },
-    DqBdU: "FTEJ",
-    sfIPD: function (ad) {
-      return ad();
+const notify = $.isNode() ? require("./sendNotify") : "";
+
+// 添加缓存相关变量
+let accountCache = {};
+let cacheFile = "ftej_cache.json";
+
+// 添加缓存管理函数
+function loadAccountCache() {
+  try {
+    if ($.isNode()) {
+      const fs = require('fs');
+      if (fs.existsSync(cacheFile)) {
+        const data = fs.readFileSync(cacheFile, 'utf8');
+        accountCache = JSON.parse(data);
+        console.log("✅ 账号缓存加载成功");
+        return accountCache;
+      }
+    } else {
+      // 非Node.js环境使用$.getdata
+      const cacheData = $.getdata('ftej_account_cache');
+      if (cacheData) {
+        accountCache = JSON.parse(cacheData);
+        console.log("✅ 账号缓存加载成功");
+        return accountCache;
+      }
     }
-  };
+    console.log("ℹ️ 未找到账号缓存文件");
+    return {};
+  } catch (e) {
+    console.log(`❌ 读取账号缓存失败: ${e}`);
+    return {};
+  }
+}
+
+function saveAccountCache(cache) {
+  try {
+    if ($.isNode()) {
+      const fs = require('fs');
+      fs.writeFileSync(cacheFile, JSON.stringify(cache, null, 2), 'utf8');
+    } else {
+      // 非Node.js环境使用$.setdata
+      $.setdata(JSON.stringify(cache), 'ftej_account_cache');
+    }
+    console.log("✅ 账号信息已缓存");
+    return true;
+  } catch (e) {
+    console.log(`❌ 保存账号缓存失败: ${e}`);
+    return false;
+  }
+}
+
+function getCurrentTime() {
+  const now = new Date();
+  return now.getFullYear() + '-' + 
+         String(now.getMonth() + 1).padStart(2, '0') + '-' + 
+         String(now.getDate()).padStart(2, '0') + ' ' + 
+         String(now.getHours()).padStart(2, '0') + ':' + 
+         String(now.getMinutes()).padStart(2, '0') + ':' + 
+         String(now.getSeconds()).padStart(2, '0');
+}
+
+(() => {
   function q(ad) {
     q = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (af) {
       return typeof af;
@@ -582,20 +80,20 @@ const notify = $.isNode() ? require("../sendNotify") : "";
           }
           var ap = {}.toString.call(am).slice(8, -1);
           "Object" === ap && am.constructor && (ap = am.constructor.name);
-          return "Map" === ap || "Set" === ap ? Array.from(am) : "Arguments" === ap || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(ap) ? B(am, an) : undefined;
+          return "Map" === ap || "Set" === ap ? Array.from(am) : "Arguments" === ap || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(ap) ? B(am, an) : void 0;
         }
       }(ad)) || ae && ad && "number" == typeof ad.length) {
         ag && (ad = ag);
-        var ah = 0;
-        var ai = function () {};
+        var ah = 0,
+          ai = function () {};
         return {
           s: ai,
           n: function () {
             var am = {
-              done: true
+              done: !0
             };
             return ah >= ad.length ? am : {
-              done: false,
+              done: !1,
               value: ad[ah++]
             };
           },
@@ -607,9 +105,9 @@ const notify = $.isNode() ? require("../sendNotify") : "";
       }
       throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
     }
-    var aj;
-    var ak = true;
-    var al = false;
+    var aj,
+      ak = !0,
+      al = !1;
     return {
       s: function () {
         ag = ag.call(ad);
@@ -620,7 +118,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
         return ao;
       },
       e: function (ao) {
-        al = true;
+        al = !0;
         aj = ao;
       },
       f: function () {
@@ -642,242 +140,28 @@ const notify = $.isNode() ? require("../sendNotify") : "";
     return ah;
   }
   function D() {
-    "use strict";
+    'use strict';
 
-    var ad = {
-      TvNEZ: function (aK, aL) {
-        return aK(aL);
-      },
-      gmqbc: function (aK, aL) {
-        return aK !== aL;
-      },
-      LrfSF: "Vneyn",
-      ySujA: function (aK, aL, aM, aN) {
-        return aK(aL, aM, aN);
-      },
-      UiHyc: "next",
-      iwJRn: "return",
-      FKhAu: function (aK, aL) {
-        return aK === aL;
-      },
-      TjLWY: "throw",
-      vdgMC: "break",
-      rMeie: "continue",
-      UJrFb: function (aK, aL) {
-        return aK === aL;
-      },
-      Gptpv: "normal",
-      hBSQr: function (aK, aL) {
-        return aK === aL;
-      },
-      YSFvR: function (aK, aL, aM, aN, aO) {
-        return aK(aL, aM, aN, aO);
-      },
-      bsvzZ: function (aK, aL) {
-        return aK == aL;
-      },
-      xneym: "function",
-      nXPSH: "ibERg",
-      CQpfG: "Generator is already running",
-      hzKpK: "ocQWN",
-      NcdgM: "mGfGC",
-      zmbhM: "zlqiq",
-      OvJpC: "zEhPQ",
-      RMGMU: function (aK, aL) {
-        return aK !== aL;
-      },
-      krdaB: "UjKNu",
-      wekIq: function (aK, aL, aM) {
-        return aK(aL, aM);
-      },
-      WLUEg: function (aK, aL) {
-        return aK === aL;
-      },
-      IvhfV: "pTUbG",
-      Yiyno: "IUXxG",
-      mRkNl: "leKNE",
-      EqjUU: "rEPwA",
-      Udmbz: function (aK, aL, aM, aN) {
-        return aK(aL, aM, aN);
-      },
-      uTWIW: function (aK, aL) {
-        return aK === aL;
-      },
-      wJrlV: "NLhAU",
-      MVkaY: "DZaAv",
-      jnMwd: function (aK) {
-        return aK();
-      },
-      hKhva: "end",
-      Tywbc: function (aK, aL) {
-        return aK !== aL;
-      },
-      mMcXH: "TSMfo",
-      QVGlo: function (aK, aL) {
-        return aK in aL;
-      },
-      SAvMO: function (aK, aL) {
-        return aK < aL;
-      },
-      hfTxw: function (aK, aL) {
-        return aK instanceof aL;
-      },
-      bgpWr: function (aK, aL, aM, aN) {
-        return aK(aL, aM, aN);
-      },
-      GgOEI: function (aK, aL, aM, aN) {
-        return aK(aL, aM, aN);
-      },
-      KmXVA: function (aK, aL) {
-        return aK !== aL;
-      },
-      VTRSl: "PILDT",
-      qOwgs: "ZfZPX",
-      LiMQx: "aKUMl",
-      nFABL: "[object Generator]",
-      jZqxr: function (aK, aL) {
-        return aK !== aL;
-      },
-      suamo: "skFvp",
-      OqcCz: function (aK, aL) {
-        return aK(aL);
-      },
-      XCOWV: function (aK, aL) {
-        return aK !== aL;
-      },
-      FcdYv: "AEhJK",
-      rTpRk: function (aK, aL) {
-        return aK === aL;
-      },
-      gGYvZ: "iterator result is not an object",
-      kPhHN: function (aK, aL) {
-        return aK === aL;
-      },
-      wTVQT: function (aK, aL, aM) {
-        return aK(aL, aM);
-      },
-      jOcTc: function (aK, aL) {
-        return aK + aL;
-      },
-      OzYGF: function (aK, aL) {
-        return aK === aL;
-      },
-      BNpYy: "fJbyb",
-      AEKMr: function (aK, aL) {
-        return aK - aL;
-      },
-      XvFuW: function (aK, aL) {
-        return aK !== aL;
-      },
-      JiURt: "RJkVt",
-      EITmN: "root",
-      LWqNZ: function (aK, aL) {
-        return aK(aL);
-      },
-      TqnkC: function (aK, aL) {
-        return aK <= aL;
-      },
-      TspvS: function (aK, aL) {
-        return aK !== aL;
-      },
-      GOCRs: "ZMaBl",
-      sQuPw: "catchLoc",
-      uHrPl: "finallyLoc",
-      VRnxL: function (aK, aL) {
-        return aK && aL;
-      },
-      enuqC: "mbRGS",
-      BPXLu: function (aK, aL) {
-        return aK < aL;
-      },
-      hnfAr: function (aK, aL) {
-        return aK < aL;
-      },
-      VocdB: function (aK, aL) {
-        return aK === aL;
-      },
-      QAULP: "pGZTv",
-      AAtQl: "RIwzd",
-      IspoC: function (aK, aL) {
-        return aK < aL;
-      },
-      RxqIP: "LPUGP",
-      mopHU: function (aK, aL) {
-        return aK(aL);
-      },
-      yqVzV: function (aK, aL) {
-        return aK(aL);
-      },
-      OgVOz: function (aK, aL) {
-        return aK(aL);
-      },
-      dDRcj: "lJDYW",
-      Osmne: function (aK, aL) {
-        return aK >= aL;
-      },
-      bSJBG: function (aK, aL) {
-        return aK !== aL;
-      },
-      xcgvD: "yrCAn",
-      hfCNZ: "gosVe",
-      haBuE: function (aK, aL) {
-        return aK < aL;
-      },
-      RTKyX: "LjTna",
-      TDpgV: function (aK, aL) {
-        return aK === aL;
-      },
-      HOtjS: function (aK, aL) {
-        return aK === aL;
-      },
-      DwilK: function (aK, aL) {
-        return aK <= aL;
-      },
-      Jvutl: function (aK, aL, aM, aN, aO, aP, aQ, aR) {
-        return aK(aL, aM, aN, aO, aP, aQ, aR);
-      },
-      nWHNi: function (aK, aL) {
-        return aK - aL;
-      },
-      RSYfm: "Eqntp",
-      QlKeE: "qjkgD",
-      hweEC: "wsYAf",
-      nYKPO: "uqYnz",
-      ZxPeJ: function (aK, aL) {
-        return aK(aL);
-      }
-    };
     D = function () {
       return af;
     };
-    var ae;
-    var af = {
-      wrap: ao,
-      isGeneratorFunction: function (aN) {
-        var aO = "function" == typeof aN && aN.constructor;
-        return !!aO && (aO === aw || "GeneratorFunction" === (aO.displayName || aO.name));
+    var ae,
+      af = {},
+      ag = Object.prototype,
+      ah = ag.hasOwnProperty,
+      ai = Object.defineProperty || function (aK, aL, aM) {
+        aK[aL] = aM.value;
       },
-      mark: function (aN) {
-        Object.setPrototypeOf ? Object.setPrototypeOf(aN, ax) : (aN.__proto__ = ax, an(aN, am, "GeneratorFunction"));
-        aN.prototype = Object.create(aB);
-        return aN;
-      }
-    };
-    var ag = Object.prototype;
-    var ah = ag.hasOwnProperty;
-    var ai = Object.defineProperty || function (aK, aL, aM) {
-      aK[aL] = aM.value;
-    };
-    var aj = "function" == typeof Symbol ? Symbol : {};
-    var ak = aj.iterator || "@@iterator";
-    var al = aj.asyncIterator || "@@asyncIterator";
-    var am = aj.toStringTag || "@@toStringTag";
+      aj = "function" == typeof Symbol ? Symbol : {},
+      ak = aj.iterator || "@@iterator",
+      al = aj.asyncIterator || "@@asyncIterator",
+      am = aj.toStringTag || "@@toStringTag";
     function an(aK, aL, aM) {
       var aO = {
         value: aM,
-        enumerable: true,
-        configurable: true,
-        writable: true
+        enumerable: !0,
+        configurable: !0,
+        writable: !0
       };
       Object.defineProperty(aK, aL, aO);
       return aK[aL];
@@ -890,9 +174,9 @@ const notify = $.isNode() ? require("../sendNotify") : "";
       };
     }
     function ao(aN, aO, aP, aQ) {
-      var aR = aO && aO.prototype instanceof av ? aO : av;
-      var aS = Object.create(aR.prototype);
-      var aT = new aI(aQ || []);
+      var aR = aO && aO.prototype instanceof av ? aO : av,
+        aS = Object.create(aR.prototype),
+        aT = new aI(aQ || []);
       ai(aS, "_invoke", {
         value: aE(aN, aP, aT)
       });
@@ -905,18 +189,18 @@ const notify = $.isNode() ? require("../sendNotify") : "";
           arg: aN.call(aO, aP)
         };
       } catch (aU) {
-        var aR = {
-          type: "throw",
-          arg: aU
-        };
+        var aR = {};
+        aR.type = "throw";
+        aR.arg = aU;
         return aR;
       }
     }
-    var aq = "suspendedStart";
-    var ar = "suspendedYield";
-    var as = "executing";
-    var at = "completed";
-    var au = {};
+    af.wrap = ao;
+    var aq = "suspendedStart",
+      ar = "suspendedYield",
+      as = "executing",
+      at = "completed",
+      au = {};
     function av() {}
     function aw() {}
     function ax() {}
@@ -924,8 +208,8 @@ const notify = $.isNode() ? require("../sendNotify") : "";
     an(ay, ak, function () {
       return this;
     });
-    var az = Object.getPrototypeOf;
-    var aA = az && az(az(aJ([])));
+    var az = Object.getPrototypeOf,
+      aA = az && az(az(aJ([])));
     aA && aA !== ag && ah.call(aA, ak) && (ay = aA);
     ax.prototype = av.prototype = Object.create(ay);
     var aB = ax.prototype;
@@ -940,8 +224,8 @@ const notify = $.isNode() ? require("../sendNotify") : "";
       function aS(aT, aU, aV, aW) {
         var aY = ap(aN[aT], aN, aU);
         if ("throw" !== aY.type) {
-          var aZ = aY.arg;
-          var b0 = aZ.value;
+          var aZ = aY.arg,
+            b0 = aZ.value;
           return b0 && "object" == q(b0) && ah.call(b0, "__await") ? aO.resolve(b0.__await).then(function (b2) {
             aS("next", b2, aV, aW);
           }, function (b2) {
@@ -977,10 +261,9 @@ const notify = $.isNode() ? require("../sendNotify") : "";
           if ("throw" === aS) {
             throw aT;
           }
-          var aV = {
-            value: ae,
-            done: true
-          };
+          var aV = {};
+          aV.value = ae;
+          aV.done = !0;
           return aV;
         }
         for (aP.method = aS, aP.arg = aT;;) {
@@ -1012,10 +295,9 @@ const notify = $.isNode() ? require("../sendNotify") : "";
             if (aR = aP.done ? at : ar, aY.arg === au) {
               continue;
             }
-            var aZ = {
-              value: aY.arg,
-              done: aP.done
-            };
+            var aZ = {};
+            aZ.value = aY.arg;
+            aZ.done = aP.done;
             return aZ;
           }
           "throw" === aY.type && (aR = at, aP.method = "throw", aP.arg = aY.arg);
@@ -1023,8 +305,8 @@ const notify = $.isNode() ? require("../sendNotify") : "";
       };
     }
     function aF(aN, aO) {
-      var aS = aO.method;
-      var aT = aN.iterator[aS];
+      var aS = aO.method,
+        aT = aN.iterator[aS];
       if (aT === ae) {
         aO.delegate = null;
         "throw" === aS && aN.iterator.return && (aO.method = "return", aO.arg = ae, aF(aN, aO), "throw" === aO.method) || "return" !== aS && (aO.method = "throw", aO.arg = new TypeError("The iterator does not provide a '" + aS + "' method"));
@@ -1041,9 +323,10 @@ const notify = $.isNode() ? require("../sendNotify") : "";
       return aV ? aV.done ? (aO[aN.resultName] = aV.value, aO.next = aN.nextLoc, "return" !== aO.method && (aO.method = "next", aO.arg = ae), aO.delegate = null, au) : aV : (aO.method = "throw", aO.arg = new TypeError("iterator result is not an object"), aO.delegate = null, au);
     }
     function aG(aN) {
-      var aQ = {
+      var aP = {
         tryLoc: aN[0]
       };
+      var aQ = aP;
       1 in aN && (aQ.catchLoc = aN[1]);
       2 in aN && (aQ.finallyLoc = aN[2], aQ.afterLoc = aN[3]);
       this.tryEntries.push(aQ);
@@ -1060,7 +343,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
       };
       this.tryEntries = [aO];
       aN.forEach(aG, this);
-      this.reset(true);
+      this.reset(!0);
     }
     function aJ(aN) {
       if (aN || "" === aN) {
@@ -1072,19 +355,19 @@ const notify = $.isNode() ? require("../sendNotify") : "";
           return aN;
         }
         if (!isNaN(aN.length)) {
-          var aQ = -1;
-          var aR = function aT() {
-            for (; ++aQ < aN.length;) {
-              if (ah.call(aN, aQ)) {
-                aT.value = aN[aQ];
-                aT.done = false;
-                return aT;
+          var aQ = -1,
+            aR = function aT() {
+              for (; ++aQ < aN.length;) {
+                if (ah.call(aN, aQ)) {
+                  aT.value = aN[aQ];
+                  aT.done = !1;
+                  return aT;
+                }
               }
-            }
-            aT.value = ae;
-            aT.done = true;
-            return aT;
-          };
+              aT.value = ae;
+              aT.done = !0;
+              return aT;
+            };
           return aR.next = aR;
         }
       }
@@ -1093,13 +376,22 @@ const notify = $.isNode() ? require("../sendNotify") : "";
     aw.prototype = ax;
     ai(aB, "constructor", {
       value: ax,
-      configurable: true
+      configurable: !0
     });
     ai(ax, "constructor", {
       value: aw,
-      configurable: true
+      configurable: !0
     });
     aw.displayName = an(ax, am, "GeneratorFunction");
+    af.isGeneratorFunction = function (aN) {
+      var aO = "function" == typeof aN && aN.constructor;
+      return !!aO && (aO === aw || "GeneratorFunction" === (aO.displayName || aO.name));
+    };
+    af.mark = function (aN) {
+      Object.setPrototypeOf ? Object.setPrototypeOf(aN, ax) : (aN.__proto__ = ax, an(aN, am, "GeneratorFunction"));
+      aN.prototype = Object.create(aB);
+      return aN;
+    };
     af.awrap = function (aN) {
       var aP = {
         __await: aN
@@ -1112,7 +404,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
     });
     af.AsyncIterator = aD;
     af.async = function (aN, aO, aP, aQ, aR) {
-      undefined === aR && (aR = Promise);
+      void 0 === aR && (aR = Promise);
       var aT = new aD(ao(aN, aO, aP, aQ), aR);
       return af.isGeneratorFunction(aO) ? aT : aT.next().then(function (aV) {
         return aV.done ? aV.value : aT.next();
@@ -1127,8 +419,8 @@ const notify = $.isNode() ? require("../sendNotify") : "";
       return "[object Generator]";
     });
     af.keys = function (aN) {
-      var aP = Object(aN);
-      var aQ = [];
+      var aP = Object(aN),
+        aQ = [];
       for (var aR in aP) aQ.push(aR);
       aQ.reverse();
       return function aT() {
@@ -1136,11 +428,11 @@ const notify = $.isNode() ? require("../sendNotify") : "";
           var aU = aQ.pop();
           if (aU in aP) {
             aT.value = aU;
-            aT.done = false;
+            aT.done = !1;
             return aT;
           }
         }
-        aT.done = true;
+        aT.done = !0;
         return aT;
       };
     };
@@ -1148,12 +440,12 @@ const notify = $.isNode() ? require("../sendNotify") : "";
     aI.prototype = {
       constructor: aI,
       reset: function (aN) {
-        if (this.prev = 0, this.next = 0, this.sent = this._sent = ae, this.done = false, this.delegate = null, this.method = "next", this.arg = ae, this.tryEntries.forEach(aH), !aN) {
+        if (this.prev = 0, this.next = 0, this.sent = this._sent = ae, this.done = !1, this.delegate = null, this.method = "next", this.arg = ae, this.tryEntries.forEach(aH), !aN) {
           for (var aO in this) "t" === aO.charAt(0) && ah.call(this, aO) && !isNaN(+aO.slice(1)) && (this[aO] = ae);
         }
       },
       stop: function () {
-        this.done = true;
+        this.done = !0;
         var aP = this.tryEntries[0].completion;
         if ("throw" === aP.type) {
           throw aP.arg;
@@ -1173,17 +465,17 @@ const notify = $.isNode() ? require("../sendNotify") : "";
           return !!aX;
         }
         for (var aP = this.tryEntries.length - 1; aP >= 0; --aP) {
-          var aQ = this.tryEntries[aP];
-          var aR = aQ.completion;
+          var aQ = this.tryEntries[aP],
+            aR = aQ.completion;
           if ("root" === aQ.tryLoc) {
             return aV("end");
           }
           if (aQ.tryLoc <= this.prev) {
-            var aS = ah.call(aQ, "catchLoc");
-            var aT = ah.call(aQ, "finallyLoc");
+            var aS = ah.call(aQ, "catchLoc"),
+              aT = ah.call(aQ, "finallyLoc");
             if (aS && aT) {
               if (this.prev < aQ.catchLoc) {
-                return aV(aQ.catchLoc, true);
+                return aV(aQ.catchLoc, !0);
               }
               if (this.prev < aQ.finallyLoc) {
                 return aV(aQ.finallyLoc);
@@ -1191,7 +483,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
             } else {
               if (aS) {
                 if (this.prev < aQ.catchLoc) {
-                  return aV(aQ.catchLoc, true);
+                  return aV(aQ.catchLoc, !0);
                 }
               } else {
                 if (!aT) {
@@ -1264,8 +556,8 @@ const notify = $.isNode() ? require("../sendNotify") : "";
   }
   function F(ad, ae, af, ag, ah, ai, aj) {
     try {
-      var ak = ad[ai](aj);
-      var al = ak.value;
+      var ak = ad[ai](aj),
+        al = ak.value;
     } catch (ao) {
       return void af(ao);
     }
@@ -1273,8 +565,8 @@ const notify = $.isNode() ? require("../sendNotify") : "";
   }
   function G(ad) {
     return function () {
-      var ag = this;
-      var ah = arguments;
+      var ag = this,
+        ah = arguments;
       return new Promise(function (ai, aj) {
         var al = ad.apply(ag, ah);
         function am(ao) {
@@ -1283,50 +575,23 @@ const notify = $.isNode() ? require("../sendNotify") : "";
         function an(ao) {
           F(al, ai, aj, am, an, "throw", ao);
         }
-        am(undefined);
+        am(void 0);
       });
     };
   }
-  var H = ($.isNode() ? process.env.FTEJ : $.getdata("FTEJ")) || "";
-  var J = "";
-  var K = "";
-  var M = "";
-  var Q = "";
-  var R = "";
+  var H = ($.isNode() ? process.env.Fukuda : $.getdata("Fukuda")) || "",
+    J = "",
+    K = "",
+    M = "",
+    Q = "",
+    R = "",
+    cachedInfo = null; // 添加全局变量声明
   function T() {
     return U.apply(this, arguments);
   }
   function U() {
     U = G(D().mark(function ae() {
-      var ag;
-      var ah;
-      var ai;
-      var aj;
-      var ak;
-      var al;
-      var am;
-      var an;
-      var ao;
-      var ap;
-      var aq;
-      var ar;
-      var as;
-      var at;
-      var au;
-      var av;
-      var aw;
-      var ax;
-      var ay;
-      var az;
-      var aA;
-      var aB;
-      var aC;
-      var aD;
-      var aE;
-      var aF;
-      var aG;
-      var aH;
-      var aI;
+      var ag, ah, ai, aj, ak, al, am, an, ao, ap, aq, ar, as, at, au, av, aw, ax, ay, az, aA, aB, aC, aD, aE, aF, aG, aH, aI;
       return D().wrap(function (aJ) {
         for (;;) {
           switch (aJ.prev = aJ.next) {
@@ -1341,7 +606,9 @@ const notify = $.isNode() ? require("../sendNotify") : "";
             case 5:
               return aJ.abrupt("return");
             case 6:
-              ag = H.split(" ");
+              // 加载账号缓存
+              accountCache = loadAccountCache();
+              ag = H.split("&");
               ah = z(ag);
               aJ.prev = 8;
               ah.s();
@@ -1350,15 +617,28 @@ const notify = $.isNode() ? require("../sendNotify") : "";
                 aJ.next = 148;
                 break;
               }
-              var aL = {
-                deviceType: 1
-              };
+              var aL = {};
+              aL.deviceType = 1;
               aj = ai.value;
               aJ.prev = 12;
-              J = aj.split("&")[0];
-              K = aj.split("&")[1];
-              console.log("用户：".concat(J, "开始任务"));
-              console.log("获取皮卡生活safeKey");
+              J = aj.split("#")[0];
+              K = aj.split("#")[1];
+              console.log("👤 用户：".concat(J, "开始任务"));
+              
+              // 检查是否有缓存的登录信息
+              cachedInfo = accountCache[J]; // 使用全局变量
+              var useCache = false;
+              var signed = false;
+              
+              if (cachedInfo) {
+                console.log("🔍 发现账号缓存信息，尝试使用缓存凭证");
+                uid = cachedInfo.uid || "";
+                memberComplexCode = cachedInfo.memberComplexCode || "";
+                memberId = cachedInfo.memberId || "";
+                M = cachedInfo.token || "";
+              }
+              
+              console.log("🔍 获取皮卡生活safeKey");
               aJ.next = 19;
               return X("/ehomes-new/pkHome/version/getVersion", aL);
             case 19:
@@ -1367,28 +647,82 @@ const notify = $.isNode() ? require("../sendNotify") : "";
                 break;
               }
               Q = am.data.safeKey;
-              console.log(Q);
-              console.log("皮卡生活登录");
-              aJ.next = 26;
-              return X("/ehomes-new/pkHome/api/user/getLoginMember2nd", {
-                memberId: "",
-                memberID: "",
-                mobile: "",
-                token: "7fe186bb15ff4426ae84f300f05d9c8d",
-                vin: "",
-                safeEnc: Date.now() - Q,
-                name: J,
-                password: K,
-                position: "",
-                deviceId: "",
-                deviceBrand: "",
-                brandName: "",
-                deviceType: "0",
-                versionCode: "21",
-                versionName: "V1.1.16"
-              });
+              
+              // 如果有缓存信息，先尝试使用缓存凭证签到
+              if (cachedInfo) {
+                console.log("🔍 使用缓存凭证尝试签到");
+                aJ.next = 25;
+                return a3("/ehomes-new/pkHome/api/bonus/signActivity2nd", {
+                  memberId: memberComplexCode,
+                  memberID: memberId,
+                  mobile: J,
+                  token: "7fe186bb15ff4426ae84f300f05d9c8d",
+                  vin: "",
+                  safeEnc: Date.now() - Q
+                });
+              } else {
+                console.log("皮卡生活登录");
+                aJ.next = 26;
+                return X("/ehomes-new/pkHome/api/user/getLoginMember2nd", {
+                  memberId: "",
+                  memberID: "",
+                  mobile: "",
+                  token: "7fe186bb15ff4426ae84f300f05d9c8d",
+                  vin: "",
+                  safeEnc: Date.now() - Q,
+                  name: J,
+                  password: K,
+                  position: "",
+                  deviceId: "",
+                  deviceBrand: "",
+                  brandName: "",
+                  deviceType: "0",
+                  versionCode: "21",
+                  versionName: "V1.1.16"
+                });
+              }
+            case 25:
+              // 处理缓存凭证签到结果
+              ao = aJ.sent;
+              console.log("🔍 缓存验证响应:", JSON.stringify(ao));
+              
+              if (ao && (ao.code === 200 || (ao.data && (ao.data.integral || ao.data.msg)))) {
+                console.log("✅ 缓存凭证有效");
+                if (ao.data && ao.data.integral) {
+                  console.log("✅ 签到成功，获得".concat(ao.data.integral, "积分"));
+                } else if (ao.data && ao.data.msg) {
+                  console.log("ℹ️ 签到结果: ".concat(ao.data.msg));
+                } else {
+                  console.log("ℹ️ 缓存凭证验证成功");
+                }
+                useCache = true;
+                signed = true;
+                aJ.next = 41;
+                break;
+              } else {
+                console.log("❌ 缓存凭证无效或已过期，将进行正常登录");
+                console.log("皮卡生活登录");
+                aJ.next = 26;
+                return X("/ehomes-new/pkHome/api/user/getLoginMember2nd", {
+                  memberId: "",
+                  memberID: "",
+                  mobile: "",
+                  token: "7fe186bb15ff4426ae84f300f05d9c8d",
+                  vin: "",
+                  safeEnc: Date.now() - Q,
+                  name: J,
+                  password: K,
+                  position: "",
+                  deviceId: "",
+                  deviceBrand: "",
+                  brandName: "",
+                  deviceType: "0",
+                  versionCode: "21",
+                  versionName: "V1.1.16"
+                });
+              }
             case 26:
-              if (an = aJ.sent, console.log(null == an ? undefined : an.msg), 200 != (null == an ? undefined : an.code)) {
+              if (an = aJ.sent, console.log(null == an ? void 0 : an.msg), 200 != (null == an ? void 0 : an.code)) {
                 aJ.next = 38;
                 break;
               }
@@ -1396,19 +730,37 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               memberComplexCode = an.data.memberComplexCode;
               memberId = an.data.user.memberNo;
               M = an.data.token;
-              console.log("开始签到");
-              aJ.next = 36;
-              return a3("/ehomes-new/pkHome/api/bonus/signActivity2nd", {
-                memberId: memberComplexCode,
-                memberID: memberId,
-                mobile: J,
-                token: "7fe186bb15ff4426ae84f300f05d9c8d",
-                vin: "",
-                safeEnc: Date.now() - Q
-              });
+              
+              // 保存登录信息到缓存
+              accountCache[J] = {
+                uid: uid,
+                memberComplexCode: memberComplexCode,
+                memberId: memberId,
+                token: M,
+                updateTime: getCurrentTime()
+              };
+              saveAccountCache(accountCache);
+              console.log("✅ 登录成功并已更新缓存");
+              
+              // 如果不是使用缓存登录，则进行签到
+              if (!signed) {
+                console.log("🔑 开始签到");
+                aJ.next = 36;
+                return a3("/ehomes-new/pkHome/api/bonus/signActivity2nd", {
+                  memberId: memberComplexCode,
+                  memberID: memberId,
+                  mobile: J,
+                  token: "7fe186bb15ff4426ae84f300f05d9c8d",
+                  vin: "",
+                  safeEnc: Date.now() - Q
+                });
+              } else {
+                aJ.next = 38;
+                break;
+              }
             case 36:
               ao = aJ.sent;
-              ao.data.integral ? console.log("签到成功，获得".concat(ao.data.integral, "积分")) : console.log(ao.data.msg);
+              ao.data.integral ? console.log("✅ 签到成功，获得".concat(ao.data.integral, "积分")) : console.log(ao.data.msg);
             case 38:
               aJ.next = 41;
               break;
@@ -1416,7 +768,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               console.log(am.msg);
             case 41:
               console.log("————————————");
-              console.log("获取福田e家safeKey");
+              console.log("🔍 获取福田e家safeKey");
               aJ.next = 45;
               return Z("/est/getVersion.action", a8(JSON.stringify({
                 limit: {
@@ -1439,8 +791,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               return aJ.abrupt("continue", 146);
             case 49:
               Q = JSON.parse(am.data).safeKey;
-              console.log(Q);
-              console.log("福田e家登录");
+              console.log("🔑 福田e家登录");
               aJ.next = 54;
               return V("/ehomes-new/homeManager/getLoginMember", {
                 password: K,
@@ -1462,10 +813,13 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               console.log(ap.msg);
               return aJ.abrupt("continue", 146);
             case 58:
-              console.log("登陆成功");
+              console.log("✅ 福田e家登录成功");
               uid = ap.data.uid;
               memberComplexCode = ap.data.memberComplexCode;
               memberId = ap.data.memberID;
+              
+              // 模拟登录中
+              console.log("🔄 模拟登录中");
               aJ.next = 64;
               return a1("/ehomes-new/homeManager/api/share/corsToActicity", {
                 memberId: memberId,
@@ -1489,7 +843,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
                 remark: "打开APP"
               });
             case 64:
-              if (aq = aJ.sent, 200 == aq.code ? console.log("打开app成功") : console.log("打开app：".concat(aq.msg)), console.log("开始签到"), "未签到" != ap.data.signIn) {
+              if (aq = aJ.sent, 200 == aq.code ? console.log("✅ 模拟登录成功") : console.log("❌ 模拟登录失败：".concat(aq.msg)), console.log("🔑 开始签到"), "未签到" != ap.data.signIn) {
                 aJ.next = 74;
                 break;
               }
@@ -1510,14 +864,14 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               });
             case 70:
               as = aJ.sent;
-              console.log("签到成功，获得".concat(null == as || null === (ar = as.data) || undefined === ar ? undefined : ar.integral, "积分"));
+              console.log("✅ 签到成功，获得".concat(null == as || null === (ar = as.data) || void 0 === ar ? void 0 : ar.integral, "积分"));
               aJ.next = 75;
               break;
             case 74:
-              console.log(null == ap || null === (at = ap.data) || undefined === at ? undefined : at.signIn);
+              console.log(null == ap || null === (at = ap.data) || void 0 === at ? void 0 : at.signIn);
             case 75:
               console.log("————————————");
-              console.log("开始任务");
+              console.log("🔍 开始任务");
               aJ.next = 79;
               return a1("/ehomes-new/homeManager/api/Member/getTaskList", {
                 memberId: memberId,
@@ -1543,11 +897,11 @@ const notify = $.isNode() ? require("../sendNotify") : "";
                 aJ.next = 126;
                 break;
               }
-              if (ax = aw.value, console.log("任务：".concat(ax.ruleName)), "1" != ax.isComplete) {
+              if (ax = aw.value, console.log("📌任务：".concat(ax.ruleName)), "1" != ax.isComplete) {
                 aJ.next = 90;
                 break;
               }
-              console.log("任务已完成");
+              console.log("✅ 任务已完成");
               aJ.next = 124;
               break;
             case 90:
@@ -1566,7 +920,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               });
             case 93:
               ay = aJ.sent;
-              200 == ay.code ? console.log("分享成功，获得".concat(ay.data.integral, "积分")) : console.log(ay.msg);
+              200 == ay.code ? console.log("✅ 分享成功，获得".concat(ay.data.integral, "积分")) : console.log(ay.msg);
             case 95:
               if ("130" != ax.ruleId) {
                 aJ.next = 109;
@@ -1614,7 +968,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               });
             case 103:
               aC = aJ.sent;
-              200 == aC.code ? console.log("关注成功") : console.log(aC.msg);
+              200 == aC.code ? console.log("✅ 关注成功") : console.log(aC.msg);
               aJ.next = 107;
               return a1("/ehomes-new/ehomesCommunity/api/post/follow2nd", {
                 memberId: memberComplexCode,
@@ -1635,7 +989,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               });
             case 107:
               aC = aJ.sent;
-              200 == aC.code ? console.log("取关成功") : console.log(aC.msg);
+              200 == aC.code ? console.log("✅ 取关成功") : console.log(aC.msg);
             case 109:
               if ("125" != ax.ruleId) {
                 aJ.next = 124;
@@ -1665,7 +1019,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
             case 117:
               aG = aJ.sent;
               (!aG || aG.length < 10) && (aG = "如果觉得没有朋友，就去找喜欢的人表白，对方会提出和你做朋友的。");
-              console.log("文本：".concat(aG));
+              console.log("✍️ 发帖内容：".concat(aG));
               aJ.next = 122;
               return a1("/ehomes-new/ehomesCommunity/api/post/addJson2nd", {
                 memberId: memberComplexCode,
@@ -1689,7 +1043,7 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               });
             case 122:
               aH = aJ.sent;
-              200 == aH.code ? console.log("发帖成功") : console.log(aH.msg);
+              200 == aH.code ? console.log("✅ 发帖成功") : console.log(aH.msg);
             case 124:
               aJ.next = 83;
               break;
@@ -1706,7 +1060,6 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               return aJ.finish(131);
             case 134:
               console.log("————————————");
-              console.log("查询积分");
               aJ.next = 138;
               return a1("/ehomes-new/homeManager/api/Member/findMemberPointsInfo", {
                 memberId: memberId,
@@ -1724,8 +1077,8 @@ const notify = $.isNode() ? require("../sendNotify") : "";
               });
             case 138:
               aI = aJ.sent;
-              console.log("拥有积分: ".concat(null == aI || null === (ak = aI.data) || undefined === ak ? undefined : ak.pointValue, "\n"));
-              R += "用户：".concat(J, " 拥有积分: ").concat(null == aI || null === (al = aI.data) || undefined === al ? undefined : al.pointValue, "\n");
+              console.log("🔍 查询当前账号拥有积分: ".concat(null == aI || null === (ak = aI.data) || void 0 === ak ? void 0 : ak.pointValue, "\n---------------------------"));
+              R += "👤 用户：".concat(J, " 拥有积分: ").concat(null == aI || null === (al = aI.data) || void 0 === al ? void 0 : al.pointValue, "\n");
               aJ.next = 146;
               break;
             case 143:
@@ -2186,20 +1539,20 @@ const notify = $.isNode() ? require("../sendNotify") : "";
     return a6.apply(this, arguments);
   }
   function a7(ad) {
-    var ae = Buffer.from("Zm9udG9uZS10cmFuc0BseDEwMCQjMzY1", "base64");
-    var af = Buffer.from("MjAxNjEyMDE=", "base64");
-    var ag = crypto.createDecipheriv("des-ede3-cbc", ae, af);
-    ag.setAutoPadding(true);
-    var ah = Buffer.from(ad, "base64");
-    var ai = ag.update(ah, undefined, "utf8");
+    var ae = Buffer.from("Zm9udG9uZS10cmFuc0BseDEwMCQjMzY1", "base64"),
+      af = Buffer.from("MjAxNjEyMDE=", "base64"),
+      ag = crypto.createDecipheriv("des-ede3-cbc", ae, af);
+    ag.setAutoPadding(!0);
+    var ah = Buffer.from(ad, "base64"),
+      ai = ag.update(ah, void 0, "utf8");
     ai += ag.final("utf8");
     return ai;
   }
   function a8(ad) {
-    var ae = Buffer.from("Zm9udG9uZS10cmFuc0BseDEwMCQjMzY1", "base64");
-    var af = Buffer.from("MjAxNjEyMDE=", "base64");
-    var ag = crypto.createCipheriv("des-ede3-cbc", ae, af);
-    ag.setAutoPadding(true);
+    var ae = Buffer.from("Zm9udG9uZS10cmFuc0BseDEwMCQjMzY1", "base64"),
+      af = Buffer.from("MjAxNjEyMDE=", "base64"),
+      ag = crypto.createCipheriv("des-ede3-cbc", ae, af);
+    ag.setAutoPadding(!0);
     var ah = ag.update(ad, "utf8", "base64");
     ah += ag.final("base64");
     return ah;
@@ -2346,8 +1699,8 @@ function Env(t, e) {
       this.data = null;
       this.dataFile = "box.dat";
       this.logs = [];
-      this.isMute = false;
-      this.isNeedRewrite = false;
+      this.isMute = !1;
+      this.isNeedRewrite = !1;
       this.logSeparator = "\n";
       this.encoding = "utf-8";
       this.startTime = new Date().getTime();
@@ -2355,7 +1708,7 @@ function Env(t, e) {
       this.log("", `🔔${this.name}, 开始!`);
     }
     getEnv() {
-      return "undefined" != typeof $environment && $environment["surge-version"] ? "Surge" : "undefined" != typeof $environment && $environment["stash-version"] ? "Stash" : "undefined" != typeof module && module.exports ? "Node.js" : "undefined" != typeof $task ? "Quantumult X" : "undefined" != typeof $loon ? "Loon" : "undefined" != typeof $rocket ? "Shadowrocket" : undefined;
+      return "undefined" != typeof $environment && $environment["surge-version"] ? "Surge" : "undefined" != typeof $environment && $environment["stash-version"] ? "Stash" : "undefined" != typeof module && module.exports ? "Node.js" : "undefined" != typeof $task ? "Quantumult X" : "undefined" != typeof $loon ? "Loon" : "undefined" != typeof $rocket ? "Shadowrocket" : void 0;
     }
     isNode() {
       return "Node.js" === this.getEnv();
@@ -2402,7 +1755,7 @@ function Env(t, e) {
       try {
         return this.setdata(JSON.stringify(t), e);
       } catch {
-        return false;
+        return !1;
       }
     }
     getScript(t) {
@@ -2419,20 +1772,20 @@ function Env(t, e) {
         let o = this.getdata("@chavy_boxjs_userCfgs.httpapi_timeout");
         o = o ? 1 * o : 20;
         o = e && e.timeout ? e.timeout : o;
-        const [r, a] = i.split("@");
-        const n = {
-          url: `http://${a}/v1/scripting/evaluate`,
-          body: {
-            script_text: t,
-            mock_type: "cron",
+        const [r, a] = i.split("@"),
+          n = {
+            url: `http://${a}/v1/scripting/evaluate`,
+            body: {
+              script_text: t,
+              mock_type: "cron",
+              timeout: o
+            },
+            headers: {
+              "X-Key": r,
+              Accept: "*/*"
+            },
             timeout: o
-          },
-          headers: {
-            "X-Key": r,
-            Accept: "*/*"
-          },
-          timeout: o
-        };
+          };
         this.post(n, (t, e, i) => s(i));
       }).catch(t => this.logErr(t));
     }
@@ -2443,10 +1796,10 @@ function Env(t, e) {
       {
         this.fs = this.fs ? this.fs : require("fs");
         this.path = this.path ? this.path : require("path");
-        const t = this.path.resolve(this.dataFile);
-        const e = this.path.resolve(process.cwd(), this.dataFile);
-        const s = this.fs.existsSync(t);
-        const i = !s && this.fs.existsSync(e);
+        const t = this.path.resolve(this.dataFile),
+          e = this.path.resolve(process.cwd(), this.dataFile),
+          s = this.fs.existsSync(t),
+          i = !s && this.fs.existsSync(e);
         if (!s && !i) {
           return {};
         }
@@ -2464,18 +1817,18 @@ function Env(t, e) {
       if (this.isNode()) {
         this.fs = this.fs ? this.fs : require("fs");
         this.path = this.path ? this.path : require("path");
-        const t = this.path.resolve(this.dataFile);
-        const e = this.path.resolve(process.cwd(), this.dataFile);
-        const s = this.fs.existsSync(t);
-        const i = !s && this.fs.existsSync(e);
-        const o = JSON.stringify(this.data);
+        const t = this.path.resolve(this.dataFile),
+          e = this.path.resolve(process.cwd(), this.dataFile),
+          s = this.fs.existsSync(t),
+          i = !s && this.fs.existsSync(e),
+          o = JSON.stringify(this.data);
         s ? this.fs.writeFileSync(t, o) : i ? this.fs.writeFileSync(e, o) : this.fs.writeFileSync(t, o);
       }
     }
     lodash_get(t, e, s) {
       const i = e.replace(/\[(\d+)\]/g, ".$1").split(".");
       let o = t;
-      for (const t of i) if (o = Object(o)[t], undefined === o) {
+      for (const t of i) if (o = Object(o)[t], void 0 === o) {
         return s;
       }
       return o;
@@ -2487,8 +1840,8 @@ function Env(t, e) {
     getdata(t) {
       let e = this.getval(t);
       if (/^@/.test(t)) {
-        const [, s, i] = /^@(.*?)\.(.*?)$/.exec(t);
-        const o = s ? this.getval(s) : "";
+        const [, s, i] = /^@(.*?)\.(.*?)$/.exec(t),
+          o = s ? this.getval(s) : "";
         if (o) {
           try {
             const t = JSON.parse(o);
@@ -2501,11 +1854,11 @@ function Env(t, e) {
       return e;
     }
     setdata(t, e) {
-      let s = false;
+      let s = !1;
       if (/^@/.test(e)) {
-        const [, i, o] = /^@(.*?)\.(.*?)$/.exec(e);
-        const r = this.getval(i);
-        const a = i ? "null" === r ? null : r || "{}" : "{}";
+        const [, i, o] = /^@(.*?)\.(.*?)$/.exec(e),
+          r = this.getval(i),
+          a = i ? "null" === r ? null : r || "{}" : "{}";
         try {
           const e = JSON.parse(a);
           this.lodash_set(e, o, t);
@@ -2549,7 +1902,7 @@ function Env(t, e) {
           this.data = this.loaddata();
           this.data[e] = t;
           this.writedata();
-          return true;
+          return !0;
         default:
           return this.data && this.data[e] || null;
       }
@@ -2558,11 +1911,11 @@ function Env(t, e) {
       this.got = this.got ? this.got : require("got");
       this.cktough = this.cktough ? this.cktough : require("tough-cookie");
       this.ckjar = this.ckjar ? this.ckjar : new this.cktough.CookieJar();
-      t && (t.headers = t.headers ? t.headers : {}, t && (t.headers = t.headers ? t.headers : {}, undefined === t.headers.cookie && undefined === t.headers.Cookie && undefined === t.cookieJar && (t.cookieJar = this.ckjar)));
+      t && (t.headers = t.headers ? t.headers : {}, t && (t.headers = t.headers ? t.headers : {}, void 0 === t.headers.cookie && void 0 === t.headers.Cookie && void 0 === t.cookieJar && (t.cookieJar = this.ckjar)));
     }
     get(t, e = () => {}) {
-      switch (t.headers && (delete t.headers["Content-Type"], delete t.headers["Content-Length"], delete t.headers["content-type"], delete t.headers["content-length"]), t.params && (t.url += "?" + this.queryStr(t.params)), undefined === t.followRedirect || t.followRedirect || ((this.isSurge() || this.isLoon()) && (t["auto-redirect"] = false), this.isQuanX() && (t.opts ? t.opts.redirection = false : t.opts = {
-        redirection: false
+      switch (t.headers && (delete t.headers["Content-Type"], delete t.headers["Content-Length"], delete t.headers["content-type"], delete t.headers["content-length"]), t.params && (t.url += "?" + this.queryStr(t.params)), void 0 === t.followRedirect || t.followRedirect || ((this.isSurge() || this.isLoon()) && (t["auto-redirect"] = !1), this.isQuanX() && (t.opts ? t.opts.redirection = !1 : t.opts = {
+        redirection: !1
       })), this.getEnv()) {
         case "Surge":
         case "Loon":
@@ -2570,7 +1923,7 @@ function Env(t, e) {
         case "Shadowrocket":
         default:
           this.isSurge() && this.isNeedRewrite && (t.headers = t.headers || {}, Object.assign(t.headers, {
-            "X-Surge-Skip-Scripting": false
+            "X-Surge-Skip-Scripting": !1
           }));
           $httpClient.get(t, (t, s, i) => {
             !t && s && (s.body = i, s.statusCode = s.status ? s.status : s.statusCode, s.status = s.statusCode);
@@ -2579,7 +1932,7 @@ function Env(t, e) {
           break;
         case "Quantumult X":
           this.isNeedRewrite && (t.opts = t.opts || {}, Object.assign(t.opts, {
-            hints: false
+            hints: !1
           }));
           $task.fetch(t).then(t => {
             const {
@@ -2613,12 +1966,12 @@ function Env(t, e) {
             }
           }).then(t => {
             const {
-              statusCode: i,
-              statusCode: o,
-              headers: r,
-              rawBody: a
-            } = t;
-            const n = s.decode(a, this.encoding);
+                statusCode: i,
+                statusCode: o,
+                headers: r,
+                rawBody: a
+              } = t,
+              n = s.decode(a, this.encoding);
             e(null, {
               status: i,
               statusCode: o,
@@ -2638,8 +1991,8 @@ function Env(t, e) {
     }
     post(t, e = () => {}) {
       const s = t.method ? t.method.toLocaleLowerCase() : "post";
-      switch (t.body && t.headers && !t.headers["Content-Type"] && !t.headers["content-type"] && (t.headers["content-type"] = "application/x-www-form-urlencoded"), t.headers && (delete t.headers["Content-Length"], delete t.headers["content-length"]), undefined === t.followRedirect || t.followRedirect || ((this.isSurge() || this.isLoon()) && (t["auto-redirect"] = false), this.isQuanX() && (t.opts ? t.opts.redirection = false : t.opts = {
-        redirection: false
+      switch (t.body && t.headers && !t.headers["Content-Type"] && !t.headers["content-type"] && (t.headers["content-type"] = "application/x-www-form-urlencoded"), t.headers && (delete t.headers["Content-Length"], delete t.headers["content-length"]), void 0 === t.followRedirect || t.followRedirect || ((this.isSurge() || this.isLoon()) && (t["auto-redirect"] = !1), this.isQuanX() && (t.opts ? t.opts.redirection = !1 : t.opts = {
+        redirection: !1
       })), this.getEnv()) {
         case "Surge":
         case "Loon":
@@ -2647,7 +2000,7 @@ function Env(t, e) {
         case "Shadowrocket":
         default:
           this.isSurge() && this.isNeedRewrite && (t.headers = t.headers || {}, Object.assign(t.headers, {
-            "X-Surge-Skip-Scripting": false
+            "X-Surge-Skip-Scripting": !1
           }));
           $httpClient[s](t, (t, s, i) => {
             !t && s && (s.body = i, s.statusCode = s.status ? s.status : s.statusCode, s.status = s.statusCode);
@@ -2657,7 +2010,7 @@ function Env(t, e) {
         case "Quantumult X":
           t.method = s;
           this.isNeedRewrite && (t.opts = t.opts || {}, Object.assign(t.opts, {
-            hints: false
+            hints: !1
           }));
           $task.fetch(t).then(t => {
             const {
@@ -2685,12 +2038,12 @@ function Env(t, e) {
           } = t;
           this.got[s](o, r).then(t => {
             const {
-              statusCode: s,
-              statusCode: o,
-              headers: r,
-              rawBody: a
-            } = t;
-            const n = i.decode(a, this.encoding);
+                statusCode: s,
+                statusCode: o,
+                headers: r,
+                rawBody: a
+              } = t,
+              n = i.decode(a, this.encoding);
             e(null, {
               status: s,
               statusCode: o,
@@ -2741,7 +2094,7 @@ function Env(t, e) {
           $mediaMime: o
         } = t;
         switch (typeof t) {
-          case undefined:
+          case void 0:
             return t;
           case "string":
             switch (this.getEnv()) {
@@ -2779,15 +2132,13 @@ function Env(t, e) {
                     action: "clipboard",
                     text: n
                   }), i) {
-                    let t;
-                    let e;
-                    let s;
+                    let t, e, s;
                     if (i.startsWith("http")) {
                       t = i;
                     } else {
                       if (i.startsWith("data:")) {
-                        const [t] = i.split(";");
-                        const [, o] = i.split(",");
+                        const [t] = i.split(";"),
+                          [, o] = i.split(",");
                         e = o;
                         s = t.replace("data:", "");
                       } else {
@@ -2912,7 +2263,7 @@ function Env(t, e) {
           this.log("", `❗️${this.name}, 错误!`, e, t);
           break;
         case "Node.js":
-          this.log("", `❗️${this.name}, 错误!`, e, undefined !== t.message ? t.message : t, t.stack);
+          this.log("", `❗️${this.name}, 错误!`, e, void 0 !== t.message ? t.message : t, t.stack);
           break;
       }
     }
